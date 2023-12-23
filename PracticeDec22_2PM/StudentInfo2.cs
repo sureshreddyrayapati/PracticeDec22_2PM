@@ -14,9 +14,9 @@ namespace PracticeDec22_2PM
         {
             Std = new List<Student>()
             {
-                new Student(){Id=1,name="Suresh",adress="Hydrabad",age=22 },
-                new Student(){Id=2,name="Naresh",adress="Hydrabad",age=21},
-                new Student(){Id=3,name="Ramesh",adress="Hydrabad",age=23}
+                 new Student(){Id=1,name="Suresh",adress="Hydrabad",age=22 },
+                 new Student(){Id=2,name="Narendra",adress="Benguluru",age=24},
+                 new Student(){Id=3,name="Pavan Kumar",adress="Telangana",age=22}
             };
         }
         void display()
