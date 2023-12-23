@@ -21,11 +21,11 @@ namespace PracticeDec22_2PM
         }
         void display()
         {
-            Console.WriteLine(" __________________________________");
-            Console.WriteLine("|  ID  |  Name  | Address  |  Age  |");
-            Console.WriteLine("|------|--------|----------|-------|");
-            Std.ToList().ForEach(x => { Console.WriteLine("|{0}     |{1}  |{2}  |{3}     |",x.Id,x.name,x.adress,x.age); });
-            Console.WriteLine("|______|________|__________|_______|");
+             Console.WriteLine(" _________________________________________");
+             Console.WriteLine("|ID |  Name         | Address       | Age |");
+             Console.WriteLine("|---|---------------|---------------|-----|");
+             Std.ToList().ForEach(x => { Console.WriteLine("|{0,-3}|{1,-15}|{2,-15}|{3}   |",x.Id,x.name,x.adress,x.age); });
+             Console.WriteLine("|___|_______________|_______________|_____|");
         }
         void displayById(int a)
         {
@@ -36,10 +36,10 @@ namespace PracticeDec22_2PM
             }
             else
             {
-                Console.WriteLine(" __________________________________");
-                Console.WriteLine("|  ID  |  Name  | Address  |  Age  |");
-                Console.WriteLine("|------|--------|----------|-------|");
-                Console.WriteLine("|{0}     |{1}  |{2}  |{3}     |", onevalue.Id, onevalue.name, onevalue.adress, onevalue.age);
+                Console.WriteLine(" ____________________________________________");
+                Console.WriteLine("|  ID  |  Name         | Address       | Age |");
+                Console.WriteLine("|------|---------------|---------------|-----|");
+                Console.WriteLine("|{0,-6}|{1,-15}|{2,-15}|{3}   |", onevalue.Id, onevalue.name, onevalue.adress, onevalue.age);
                 Console.WriteLine("|______|________|__________|_______|");
             }
         }
@@ -52,10 +52,10 @@ namespace PracticeDec22_2PM
             }
             else
             {
-                Console.WriteLine(" __________________________________");
-                Console.WriteLine("|  ID  |  Name  | Address  |  Age  |");
-                Console.WriteLine("|------|--------|----------|-------|");
-                Console.WriteLine("|{0}     |{1}  |{2}  |{3}     |", onevalue.Id, onevalue.name, onevalue.adress, onevalue.age);
+                Console.WriteLine(" ____________________________________________");
+                Console.WriteLine("|  ID  |  Name         | Address       | Age |");
+                Console.WriteLine("|------|---------------|---------------|-----|");
+                Console.WriteLine("|{0,-6}|{1,-15}|{2,-15}|{3}   |", onevalue.Id, onevalue.name, onevalue.adress, onevalue.age);
                 Console.WriteLine("|______|________|__________|_______|");
             }
         }
